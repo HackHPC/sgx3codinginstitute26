@@ -65,3 +65,9 @@ During the final week, participants will put their new skills into practice in a
 ---
 
 For questions or additional program information, please visit the application page above.
+
+
+
+## Resources
+- [Task Sheet](https://docs.google.com/document/d/1NyLCcEchlQ43pRPxxXyYL8tp7a2wimDDCq9zJhjeleA/edit?usp=sharing)
+  
