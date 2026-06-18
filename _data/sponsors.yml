@@ -23,6 +23,10 @@
   url: https://nsu.edu
   logo: /assets/images/sponsors/nsu-logo.png
 
+- name: Winston-Salem State University
+  url: https://www.wssu.edu/
+  logo: /assets/images/sponsors/wssu-logo.png
+
 - name: Texas Advanced Computing Center
   url: https://tacc.utexas.edu
   logo: /assets/images/sponsors/tacc-logo.png
@@ -30,3 +34,4 @@
 - name: Omnibond
   url: https://omnibond.com
   logo: /assets/images/sponsors/omnibond-logo.png
+
