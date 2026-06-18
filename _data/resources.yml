@@ -1,0 +1,151 @@
+- category: Coding Institute & SGX3
+  color: purple
+  resources:
+    - name: SGX3 Coding Institute Website
+      description: "Central hub for schedules, assignments, announcements, and program information."
+      url: https://hackhpc.github.io/sgx3codinginstitute26/
+      action: Visit
+    - name: SGX3 Website
+      description: "Learn about SGX3 programs, training opportunities, and community initiatives."
+      url: https://sciencegateways.org/
+      action: Visit
+    - name: SGX3 Webinar Series
+      description: "Live and recorded webinars covering HPC, AI, Science Gateways, and workforce development."
+      url: https://sciencegateways.org/sgx3webinars
+      action: Visit
+    - name: Student Deliverables Repository
+      description: "Shared workspace containing assignments, templates, and submission materials."
+      url: https://drive.google.com/drive/folders/1e5X7NTKWfuu-ldxGnghJ31kMFoFDlmBA?usp=sharing
+      action: Open
+    - name: Coding Institute Task Sheet Template
+      description: "Template for tracking goals, tasks, and project progress."
+      url: https://docs.google.com/document/d/1NyLCcEchlQ43pRPxxXyYL8tp7a2wimDDCq9zJhjeleA/edit?usp=sharing
+      action: Open
+    - name: SGX3 Slack Workspace
+      description: "Collaboration space for students, mentors, and instructors."
+      url: https://join.slack.com/t/2026codinginstitute/shared_invite/zt-3zckmz693-b3lptKXvTvXMkmeFB8eW~w
+      action: Join
+    - name: Coding Institute NotebookLM
+      description: AI-powered assistant for program resources and learning materials.
+      url: https://notebooklm.google.com/
+      action: Open
+    - name: Prompt Engineering Slide Deck
+      description: Training materials for effective AI prompt engineering.
+      url: https://docs.google.com/presentation/d/1S_Aq0jhJeu5hYM8S6HGRveeISkPPOyoT7goK7ki9DEo/edit?usp=sharing
+      action: Open
+    - name: NAIRR Pilot Portal
+      description: Access advanced AI and computing resources.
+      url: https://nairrpilot.org/
+      action: Visit
+
+- category: Learning & Certifications
+  color: blue
+  resources:
+    - name: "DataCamp: Introduction to Git"
+      description: Learn version control fundamentals with Git.
+      url: https://app.datacamp.com/learn/courses/introduction-to-git
+      action: Start
+    - name: Kaggle Python Certification
+      description: Build foundational Python programming skills.
+      url: https://www.kaggle.com/learn/python
+      action: Start
+    - name: "Kaggle: Introduction to Machine Learning"
+      description: Learn core machine learning concepts and workflows.
+      url: https://www.kaggle.com/learn/intro-to-machine-learning
+      action: Start
+    - name: Canva Design Skills for Students
+      description: Develop presentation and visual communication skills.
+      url: https://www.canva.com/design-school/courses/canva-design-skills-for-students
+      action: Start
+    - name: Google Cloud Computing Foundations
+      description: Introduction to cloud computing and Google Cloud.
+      url: https://www.skills.google/course_templates/153
+      action: Start
+    - name: Google AI Certificate
+      description: Professional training in AI fundamentals and applications.
+      url: https://www.coursera.org/google-certificates/google-ai
+      action: Enroll
+    - name: "OverTheWire: Bandit"
+      description: Hands-on cybersecurity and Linux command-line training.
+      url: https://overthewire.org/wargames/bandit
+      action: Play
+
+- category: Development & AI Tools
+  color: teal
+  resources:
+    - name: TACC Analysis Portal (TAP)
+      description: Web-based access to advanced computing resources.
+      url: https://tap.tacc.utexas.edu/
+      action: Visit
+    - name: Google Colab
+      description: Cloud-hosted Jupyter notebooks for Python development.
+      url: https://colab.research.google.com/
+      action: Open
+    - name: Obsidian
+      description: Knowledge management and note-taking platform.
+      url: https://obsidian.md/
+      action: Download
+    - name: Globus
+      description: Secure platform for transferring and sharing research data.
+      url: https://www.globus.org/
+      action: Visit
+    - name: LM Studio
+      description: Run large language models locally on your computer.
+      url: https://lmstudio.ai/
+      action: Download
+    - name: Ollama
+      description: Deploy and interact with open-source AI models locally.
+      url: https://ollama.com/
+      action: Download
+
+- category: APIs & Data Sources
+  color: sky
+  resources:
+    - name: GitHub API
+      description: Programmatic access to GitHub repositories and users.
+      code: "https://api.github.com/users/"
+    - name: PokeAPI
+      description: "Free Pokemon API for learning API integration."
+      code: "https://pokeapi.co/api/v2/pokemon/"
+    - name: Open-Meteo API
+      description: Weather forecast and climate data API.
+      code: "https://api.open-meteo.com/v1/forecast"
+    - name: Wikipedia API
+      description: Access encyclopedia content programmatically.
+      code: "https://en.wikipedia.org/w/api.php"
+
+- category: Scholarships & Internships
+  color: coral
+  resources:
+    - name: ADMI Hackathon 2026
+      description: Collaborative coding competition and learning opportunity.
+      url: https://forms.gle/MdeeTz91kZvGyJFR8
+      action: Register
+    - name: Benjamin A. Gilman Scholarship
+      description: Funding opportunity for study abroad experiences.
+      url: https://www.gilmanscholarship.org/
+      action: Apply
+    - name: NCAR Internships
+      description: Internships in atmospheric science and computing.
+      url: https://ncar.ucar.edu/opportunities/internships
+      action: Apply
+    - name: ACCESS Allocations
+      description: Request free advanced computing resources.
+      url: https://access-ci.org/
+      action: Apply
+
+- category: Outreach & Research Resources
+  color: navy
+  resources:
+    - name: NCAR Explorer Series
+      description: Public lectures from leading researchers and scientists.
+      url: https://ncar.ucar.edu/
+      action: Watch
+    - name: WeTeachCS
+      description: Resources and support for computer science education.
+      url: https://weteachcs.org/
+      action: Visit
+    - name: TACC K-12 Programs
+      description: STEM and computing education programs for students.
+      url: https://tacc.utexas.edu/education/k-12-students/
+      action: Visit

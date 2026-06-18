@@ -1,0 +1,44 @@
+{% if site.data.sponsors %}
+<div class="sponsors-sidebar">
+  <h3 class="sidebar-heading">Sponsors</h3>
+
+  {% for sponsor in site.data.sponsors %}
+  <div class="sponsor-block">
+
+    <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link" title="{{ sponsor.name }}">
+      {% if sponsor.logo %}
+      <img src="{{ sponsor.logo | prepend: site.baseurl }}"
+           alt="{{ sponsor.name }}"
+           class="sponsor-logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="sponsor-name-fallback" style="display:none">{{ sponsor.name }}</span>
+      {% else %}
+      <span class="sponsor-name-fallback">{{ sponsor.name }}</span>
+      {% endif %}
+    </a>
+
+    {% if sponsor.funding_agency %}
+    <div class="funding-agency">
+      <span class="funding-label">Funded by</span>
+
+      {% if sponsor.funding_agency.logo %}
+      <img src="{{ sponsor.funding_agency.logo | prepend: site.baseurl }}"
+           alt="{{ sponsor.funding_agency.name }}"
+           class="funding-logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="funding-name" style="display:none">{{ sponsor.funding_agency.name }}</span>
+      {% else %}
+      <span class="funding-name">{{ sponsor.funding_agency.name }}</span>
+      {% endif %}
+
+      {% if sponsor.funding_agency.grant_number %}
+      <span class="grant-number">{{ sponsor.funding_agency.grant_number }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+
+</div>
+{% endif %}

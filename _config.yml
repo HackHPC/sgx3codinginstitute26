@@ -1,0 +1,21 @@
+title: SGX3 Coding Institute & Hackathon 2026
+description: >-
+  An immersive virtual training program for undergraduate and graduate students
+  in science gateway development, HPC, and AI-driven workflows.
+baseurl: "/sgx3codinginstitute26"
+url: "https://hackhpc.github.io"
+
+theme: jekyll-theme-slate
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
