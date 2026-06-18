@@ -1,21 +1,27 @@
 # Sponsors are displayed in the sidebar on every page.
-# funding_agency is optional. When present, it is visually nested below the sponsor.
+# funding_agencies is optional. When present, each entry is visually nested below the sponsor.
+# Use label to distinguish multiple awards from the same agency (e.g. "SGCI" vs "SGX3").
 
 - name: SGX3 | Science Gateways Community Institute
   url: https://sciencegateways.org
   logo: /assets/images/sponsors/sgci-logo.png
-  funding_agency:
-    name: National Science Foundation
-    logo: /assets/images/sponsors/nsf-logo.png
-    grant_number: "OAC-1547611"
+  funding_agencies:
+    - name: National Science Foundation
+      logo: /assets/images/sponsors/nsf-logo.png
+      grant_number: "ACI-1547611"
+      label: SGCI
+    - name: National Science Foundation
+      logo: /assets/images/sponsors/nsf-logo.png
+      grant_number: "2231406"
+      label: SGX3
 
 - name: The Association of Computer Science Departments at Minority Institutions
   url: https://admiusa.org
-  logo: /assets/images/sponsors/example-logo.png
+  logo: /assets/images/sponsors/admi-logo.png
 
 - name: Norfolk State University
   url: https://nsu.edu
-  logo: /assets/images/sponsors/example-logo.png
+  logo: /assets/images/sponsors/nsu-logo.png
 
 - name: Texas Advanced Computing Center
   url: https://tacc.utexas.edu
@@ -23,5 +29,4 @@
 
 - name: Omnibond
   url: https://omnibond.com
-  logo: /assets/images/sponsors/example-logo.png
-
+  logo: /assets/images/sponsors/omnibond-logo.png
