@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SGX3 Coding Institute & Hackathon 2026
+title: SGX3 Coding Institute 2026
 ---
 
 
