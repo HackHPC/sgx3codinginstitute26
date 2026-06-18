@@ -1,40 +1,40 @@
 - category: Coding Institute & SGX3
   color: purple
   resources:
-    - name: SGX3 Coding Institute Website
-      description: "Central hub for schedules, assignments, announcements, and program information."
+    - name: SGX3 Coding Institute Site
+      description: The official website for the 2026 SGX3 Coding Institute.
       url: https://hackhpc.github.io/sgx3codinginstitute26/
       action: Visit
     - name: SGX3 Website
-      description: "Learn about SGX3 programs, training opportunities, and community initiatives."
+      description: "The main website for the Science Gateways Community Institute — programs, training, and community initiatives."
       url: https://sciencegateways.org/
       action: Visit
-    - name: SGX3 Webinar Series
-      description: "Live and recorded webinars covering HPC, AI, Science Gateways, and workforce development."
+    - name: SGX3 Webinars
+      description: "Monthly webinars highlighting science gateways, tools, and best practices."
       url: https://sciencegateways.org/sgx3webinars
       action: Visit
-    - name: Student Deliverables Repository
-      description: "Shared workspace containing assignments, templates, and submission materials."
+    - name: Student Deliverables Google Drive
+      description: "Shared Google Drive folder for uploading completed task sheet items and screenshots."
       url: https://drive.google.com/drive/folders/1e5X7NTKWfuu-ldxGnghJ31kMFoFDlmBA?usp=sharing
       action: Open
     - name: Coding Institute Task Sheet Template
-      description: "Template for tracking goals, tasks, and project progress."
+      description: "Checklist tracking required tasks and certifications to ensure delivery of the final stipend."
       url: https://docs.google.com/document/d/1NyLCcEchlQ43pRPxxXyYL8tp7a2wimDDCq9zJhjeleA/edit?usp=sharing
       action: Open
     - name: SGX3 Slack Workspace
-      description: "Collaboration space for students, mentors, and instructors."
+      description: "The primary communication platform for students, mentors, and instructors."
       url: https://join.slack.com/t/2026codinginstitute/shared_invite/zt-3zckmz693-b3lptKXvTvXMkmeFB8eW~w
       action: Join
-    - name: Coding Institute NotebookLM
-      description: AI-powered assistant for program resources and learning materials.
-      url: https://notebooklm.google.com/
+    - name: NotebookLM for the Institute
+      description: AI-assisted notebook loaded with course transcripts and slide decks for students to query.
+      url: https://notebooklm.google.com/notebook/11356ef7-1d14-4491-b172-dd642c93314b
       action: Open
     - name: Prompt Engineering Slide Deck
-      description: Training materials for effective AI prompt engineering.
+      description: "Presentation materials covering AI architecture, NLP, and prompt engineering."
       url: https://docs.google.com/presentation/d/1S_Aq0jhJeu5hYM8S6HGRveeISkPPOyoT7goK7ki9DEo/edit?usp=sharing
       action: Open
     - name: NAIRR Pilot Portal
-      description: Access advanced AI and computing resources.
+      description: National AI Research Resource pilot portal managed by SGX3 to share AI resources across researchers.
       url: https://nairrpilot.org/
       action: Visit
 
@@ -42,110 +42,185 @@
   color: blue
   resources:
     - name: "DataCamp: Introduction to Git"
-      description: Learn version control fundamentals with Git.
+      description: A 2-hour foundational course on Git version control.
       url: https://app.datacamp.com/learn/courses/introduction-to-git
       action: Start
-    - name: Kaggle Python Certification
-      description: Build foundational Python programming skills.
+    - name: DataCamp Student 3-Month Credits
+      description: Redeem 3 months of free DataCamp access via GitHub Student Benefits.
+      url: https://support.datacamp.com/hc/en-us/articles/360007328014-How-to-Get-3-Months-of-Free-Access-to-DataCamp-with-GitHub-Student-Benefits
+      action: Claim
+    - name: "Kaggle: Python Certification"
+      description: A 5-hour foundational course on Python programming.
       url: https://www.kaggle.com/learn/python
       action: Start
-    - name: "Kaggle: Introduction to Machine Learning"
-      description: Learn core machine learning concepts and workflows.
+    - name: "Kaggle: Intro to Machine Learning"
+      description: A 3-hour foundational certification on machine learning concepts.
       url: https://www.kaggle.com/learn/intro-to-machine-learning
       action: Start
     - name: Canva Design Skills for Students
-      description: Develop presentation and visual communication skills.
+      description: Training course for front-end design to help build report slides and portfolio websites.
       url: https://www.canva.com/design-school/courses/canva-design-skills-for-students
       action: Start
     - name: Google Cloud Computing Foundations
-      description: Introduction to cloud computing and Google Cloud.
+      description: A 2-hour introductory course focusing on Google Cloud infrastructure.
       url: https://www.skills.google/course_templates/153
       action: Start
+    - name: Google Cloud Skills Boost Credits
+      description: Application form to receive student training credits on the Google Cloud platform.
+      url: https://services.google.com/fb/forms/googlecloudskillsbooststudenttrainingcreditsapplication/
+      action: Apply
     - name: Google AI Certificate
-      description: Professional training in AI fundamentals and applications.
+      description: "A 7-hour professional certification course covering AI fundamentals and applications."
       url: https://www.coursera.org/google-certificates/google-ai
       action: Enroll
     - name: "OverTheWire: Bandit"
-      description: Hands-on cybersecurity and Linux command-line training.
+      description: A wargame designed to practice and improve Linux command-line terminal skills.
       url: https://overthewire.org/wargames/bandit
       action: Play
+    - name: Bandit Command Cheat Sheet
+      description: "Google Doc with a template, hints, and command tracking for the Bandit Linux challenges."
+      url: https://docs.google.com/document/d/1Wrgv1QqFWQyGQsZWTdw9kpfTdZqZGJctXWe7Hu6okso/edit?usp=sharing
+      action: Open
+    - name: Slack Tutorial For Beginners
+      description: YouTube video guide on setting up a Slack profile and introducing yourself.
+      url: https://www.youtube.com/watch?v=o3HJuPaITWk
+      action: Watch
 
 - category: Development & AI Tools
   color: teal
   resources:
     - name: TACC Analysis Portal (TAP)
-      description: Web-based access to advanced computing resources.
+      description: "Portal to access the Texas Advanced Computing Center and launch Jupyter Notebooks on Frontera."
       url: https://tap.tacc.utexas.edu/
       action: Visit
     - name: Google Colab
-      description: Cloud-hosted Jupyter notebooks for Python development.
+      description: "Cloud-based Jupyter Notebook environment for writing, testing, and sharing Python code."
       url: https://colab.research.google.com/
       action: Open
     - name: Obsidian
-      description: Knowledge management and note-taking platform.
+      description: "Note-taking application with built-in visual knowledge graphs and Markdown files — AI-readable."
       url: https://obsidian.md/
       action: Download
     - name: Globus
-      description: Secure platform for transferring and sharing research data.
+      description: Research data management service for transferring and sharing data across institutions.
       url: https://www.globus.org/
       action: Visit
     - name: LM Studio
-      description: Run large language models locally on your computer.
+      description: User-friendly tool for downloading and running local Large Language Models on personal computers.
       url: https://lmstudio.ai/
       action: Download
     - name: Ollama
-      description: Deploy and interact with open-source AI models locally.
+      description: Terminal-based platform for setting up local AI inference servers and downloading open-source models.
       url: https://ollama.com/
       action: Download
+    - name: Manus AI
+      description: "AI agent that can write, test, and debug code within a sandboxed Docker environment."
+      url: https://manus.im/
+      action: Visit
+    - name: Go Full Page (Chrome Extension)
+      description: Browser extension for capturing and saving entire web pages as PDF documents.
+      url: https://chromewebstore.google.com/detail/fdpohaocaechififmbbbbbknoalclacl
+      action: Install
 
 - category: APIs & Data Sources
   color: sky
   resources:
     - name: GitHub API
-      description: Programmatic access to GitHub repositories and users.
+      description: Endpoint for fetching raw JSON data about GitHub users and their public repositories.
       code: "https://api.github.com/users/"
     - name: PokeAPI
-      description: "Free Pokemon API for learning API integration."
+      description: "Free, open REST API providing extensive Pokémon stats, abilities, and types — no API key required."
       code: "https://pokeapi.co/api/v2/pokemon/"
     - name: Open-Meteo API
-      description: Weather forecast and climate data API.
+      description: API providing free weather forecast data using latitude and longitude parameters.
       code: "https://api.open-meteo.com/v1/forecast"
+    - name: Superhero API
+      description: Endpoints for fetching JSON data containing statistics and biographies of superheroes.
+      url: https://superheroapi.com/
+      action: Docs
+    - name: Superhero API JSON Data
+      description: Direct JSON endpoint returning stats and data for all superheroes.
+      code: "https://akabab.github.io/superhero-api/api/all.json"
     - name: Wikipedia API
-      description: Access encyclopedia content programmatically.
+      description: MediaWiki API for querying endpoints and scraping internal page links to build knowledge graphs.
       code: "https://en.wikipedia.org/w/api.php"
+    - name: Serebii
+      description: Comprehensive resource site for researching Pokémon statistics and information.
+      url: https://serebii.net/
+      action: Visit
 
 - category: Scholarships & Internships
   color: coral
   resources:
-    - name: ADMI Hackathon 2026
-      description: Collaborative coding competition and learning opportunity.
+    - name: ADMI Hackathon 2026 Registration
+      description: Registration form for the Association of Computer Science Departments at Minority Institutions virtual hackathon.
       url: https://forms.gle/MdeeTz91kZvGyJFR8
       action: Register
-    - name: Benjamin A. Gilman Scholarship
-      description: Funding opportunity for study abroad experiences.
+    - name: ADMI Hackathon Event Site
+      description: Official site for the 2026 ADMI hackathon detailing the AI fine-tuning theme.
+      url: https://hackhpc.github.io/admi26
+      action: Visit
+    - name: Benjamin Gilman Scholarship
+      description: Scholarship program providing funding for students engaging in study abroad opportunities.
       url: https://www.gilmanscholarship.org/
       action: Apply
     - name: NCAR Internships
-      description: Internships in atmospheric science and computing.
+      description: High-performance computing and data science internship opportunities at the National Center for Atmospheric Research.
       url: https://ncar.ucar.edu/opportunities/internships
       action: Apply
     - name: ACCESS Allocations
-      description: Request free advanced computing resources.
+      description: Portals for requesting computational resources provided by the NSF to run open-source projects.
       url: https://access-ci.org/
       action: Apply
+    - name: Cloudbank ACCESS
+      description: Resource allocation service provided by ACCESS for cloud computing credits.
+      url: https://allocations.access-ci.org/resources/cloudbank.access-ci.org
+      action: Apply
 
-- category: Outreach & Research Resources
+- category: Outreach Resources
   color: navy
   resources:
-    - name: NCAR Explorer Series
-      description: Public lectures from leading researchers and scientists.
-      url: https://ncar.ucar.edu/
+    - name: NCAR Explorer Series Lectures
+      description: Public lectures and educational outreach materials from the National Center for Atmospheric Research.
+      url: https://ncar.ucar.edu/what-we-offer/education-outreach/public/ncar-explorer-series-lectures/2021-explorer-series/3d
       action: Watch
+    - name: NCAR IoTwx Manual
+      description: GitHub repository documenting a 3D-printed weather station platform using Raspberry Pi.
+      url: https://github.com/NCAR/iotwx-manual
+      action: GitHub
+    - name: NCAR PI-WRF Teaching Box
+      description: Educational resources and teaching boxes provided by NCAR.
+      url: https://ncar.github.io/piwrf-teachingbox/pages/about.html
+      action: Visit
     - name: WeTeachCS
-      description: Resources and support for computer science education.
+      description: Educational program run by TACC to prepare K-12 teachers for computer science certifications.
       url: https://weteachcs.org/
       action: Visit
-    - name: TACC K-12 Programs
-      description: STEM and computing education programs for students.
+    - name: TACC K-12
+      description: "Outreach programs offering STEM camps (robotics, cybersecurity) for high school students."
       url: https://tacc.utexas.edu/education/k-12-students/
       action: Visit
+    - name: AutoAuto.ai
+      description: Platform featuring autonomous Raspberry Pi-based RC cars used for education and TACC test tracks.
+      url: https://www.autoauto.ai/
+      action: Visit
+
+- category: Miscellaneous
+  color: gray
+  resources:
+    - name: IRS W-9 Form
+      description: Tax form required for domestic students to process and receive their Coding Institute stipend.
+      url: https://www.irs.gov/pub/irs-pdf/fw9.pdf
+      action: Download
+    - name: IRS W-8 Form Instructions
+      description: Tax instructions for international students to process and receive their Coding Institute stipend.
+      url: https://www.irs.gov/instructions/iw8
+      action: View
+    - name: YOLO Model Wikipedia
+      description: "Information on 'You Only Look Once,' a real-time object detection AI model."
+      url: https://en.wikipedia.org/wiki/You_Only_Look_Once
+      action: Read
+    - name: Amapiano 2026 Playlist
+      description: Spotify music playlist shared by participants for coding sessions.
+      url: https://open.spotify.com/playlist/4Ymf8eaPQGT7HMTymoX82f?si=cd4e9185f9514c88
+      action: Play
